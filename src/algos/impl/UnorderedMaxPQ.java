@@ -3,7 +3,7 @@ package algos.impl;
 import algos.iface.MaxPQ;
 import algos.util.SortingUtils;
 
-public class UnorderedMaxPQ<T  extends Comparable<T>> implements MaxPQ<T> {
+public class UnorderedMaxPQ<T extends Comparable<T>> implements MaxPQ<T> {
 
 	private T[] _pq = null;
 	private int _index = 0;
